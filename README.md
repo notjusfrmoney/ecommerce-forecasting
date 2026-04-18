@@ -6,6 +6,20 @@ The goal was to go from raw transactional data all the way to a working demand f
 
 ---
 
+## Project Phases
+
+| Phase | Topic | Status |
+|---|---|---|
+| 1 | Environment Setup & Project Scaffolding | Complete |
+| 2 | Data Cleaning & Quality Checks | Complete |
+| 3 | Exploratory Data Analysis | Complete |
+| 4 | Cloud Setup & SQL Analytics (GCP + BigQuery) | Planned |
+| 5 | Demand Forecasting (Prophet + XGBoost) | Complete |
+| 6 | Power BI Dashboard | Planned |
+| 7 | Storytelling & Portfolio Publishing | In Progress |
+
+---
+
 ## What this project covers
 
 - **Data cleaning** — handling nulls, cancelled orders, negative quantities, and price outliers across 1M+ rows
@@ -38,6 +52,7 @@ ecommerce-forecasting/
 │   ├── 03_eda.ipynb
 │   └── 05_demand_forecasting.ipynb
 ├── reports/
+│   ├── project_report.md             # full findings document
 │   └── figures/                      # all charts saved here
 └── README.md
 ```
